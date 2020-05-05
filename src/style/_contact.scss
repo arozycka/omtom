@@ -40,6 +40,8 @@
   display: flex;
   flex-direction: row;
   margin-bottom: 30px;
+  font-weight: bold;
+  justify-content: center;
 }
 
 .name{
@@ -47,6 +49,7 @@
   font-size: 50px;
   font-family: $fontfamilyMain;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .tel{
@@ -54,6 +57,7 @@
   font-size: 40px;
   font-family: $fontfamilyMain;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .mail {
@@ -61,14 +65,26 @@
   font-size: 40px;
   font-family: $fontfamilyMain;
   margin-bottom: 15px;
+  text-align: center;
 }
 
 .adresKontakt{
   color: black;
   font-size: 20px;
   font-family: $fontfamilyMain;
+  text-align: center;
 }
 
 #nip{
   margin-bottom: 100px;
+}
+
+.setMaps{
+  display: flex;
+  flex-direction: row;
+}
+
+.contact-map{
+  margin-top: 50px;
+  margin-left: 50px;
 }
