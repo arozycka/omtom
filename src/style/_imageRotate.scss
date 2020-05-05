@@ -1,0 +1,47 @@
+#imageRotate{
+  width: 300px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin:50px 50px;
+  color:goldenrod;
+  position:relative;
+  perspective: 400px;
+}
+
+#imageRotateFront {
+
+  width: 300px;
+  height: 300px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: darkgoldenrod;
+}
+
+.card {
+  position: relative;
+  width: 9rem; height: 12rem;
+  perspective: 30rem;
+}
+.front, .back {
+  position: absolute;
+  width: 100%; height: 100%;
+  transition: transform 1s;
+  backface-visibility:hidden;
+  margin: 0;
+}
+
+.back {
+  transform: rotateY(180deg);
+}
+.card:hover .front{ transform: rotateY(180deg); }
+.card:hover .back { transform: rotateY(360deg); }
+
+.mainCard{
+  width: 300px;
+  height: 300px;
+}
+

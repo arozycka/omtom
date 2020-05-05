@@ -1,0 +1,17 @@
+.wrapper {
+  display: grid;
+  grid-template-rows: 120px 1fr 300px;
+  grid-template-columns: 1fr;
+}
+.header {
+  grid-row: 1/2;
+}
+
+.main{
+  grid-row: 2/3;
+  grid-column: 1/2;
+}
+
+.footer {
+  grid-row: 3 / 4;
+}
