@@ -18,7 +18,7 @@ class Contact extends React.Component {
                     <div>
                         <p className="name">Tomasz Żurek</p>
                         <p className="tel">tel: 668 847 119</p>
-                        <p className="mail">mail: biuro@omtom.pl</p>
+                        <p className="mail">mail:<a href="mailto:biuro@omtom.pl">biuro@omtom.pl</a></p>
                         <p className="adresKontakt">ul. Morska 1 </p>
                         <p className="adresKontakt">32-089 Biały Kościół</p>
                         <p className="adresKontakt">REGON: 385417240</p>

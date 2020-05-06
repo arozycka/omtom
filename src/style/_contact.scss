@@ -66,6 +66,10 @@
   font-family: $fontfamilyMain;
   margin-bottom: 15px;
   text-align: center;
+  a{
+    text-decoration: none;
+    color: $colordecoration;
+  }
 }
 
 .adresKontakt{
