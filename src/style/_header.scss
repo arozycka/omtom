@@ -12,6 +12,11 @@
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 5px solid $colordecoration;
+
+  @media(max-width:768px){
+    width: 100%;
+    height: 100%;
+  }
 }
 
 .redline{
@@ -28,6 +33,11 @@
   background-repeat: no-repeat;
   background-position: center;
   margin-left: 50px;
+  @media(max-width:768px){
+    width: 30%;
+    //height: 80%;
+    margin-left: 0;
+  }
 }
 
 .navigation{
@@ -36,12 +46,18 @@
  justify-content: center;
   margin-right: 50px;
   font-family: $fontfamilyMain;
+
+  @media(max-width:768px){
+    background-color: black;
+    margin-right: 0;
+  }
 }
 
 .ulnavigation{
   display: flex;
   flex-direction: row;
   list-style: none;
+
 }
 
 li a {
@@ -50,4 +66,11 @@ li a {
   margin-right: 30px;
   text-align: center;
   color:black;
+  @media(max-width:768px){
+    margin-right: 15px;
+    //font-size: 40px;
+    color: white;
+    //border-right: 5px solid $colordecoration;
+    height: 100%;
+  }
 }

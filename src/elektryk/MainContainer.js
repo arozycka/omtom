@@ -3,6 +3,7 @@ import Offer from "./Offer";
 import Gallery from "./Gallery";
 import Contact from "./Contact";
 import DefaultPage from "./DefaultPage";
+import MoreGallery from "./moregallery";
 import {Switch,Route} from "react-router-dom";
 
 
@@ -14,6 +15,7 @@ class MainContainer extends React.Component{
                     <Route exact path="/" component={DefaultPage}/>
                     <Route exact path="/oferta" component={Offer}/>
                     <Route exact path="/realizacje" component={Gallery}/>
+                    {/*<Route exact path="/realizacje/wiecejzdjec" component={MoreGallery}/>*/}
                     <Route exact path="/kontakt" component={Contact}/>
                 </Switch>
             </div>

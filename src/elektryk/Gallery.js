@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import img0 from "../images/20200102_103710.jpg";
 import img1 from "../images/20200102_103739.jpg";
 import img2 from "../images/20200108_155507.jpg";
@@ -9,7 +10,7 @@ import img6 from "../images/metr.jpg";
 import img7 from "../images/20200113_162338.jpg";
 import img8 from "../images/20200417_123736.jpg";
 import img9 from "../images/panel2.jpg";
-import img10 from "../images/metr.jpg";
+import img10 from "../images/strop.jpg";
 import img11 from "../images/ziemia.jpg";
 import img12 from "../images/do_ziemi.jpg";
 import img13 from "../images/sciana2.jpg";
@@ -23,6 +24,7 @@ import img20 from "../images/lazienka.jpg";
 import img21 from "../images/kable.jpg";
 import img22 from "../images/panel.jpg";
 import img23 from "../images/skrzynkasurowa.jpg";
+
 
 
 
@@ -92,6 +94,9 @@ class Gallery extends React.Component {
                         }
                     </div>
                 </div>
+                {/*<Link to="/realizacje/wiecejzdjec" activeStyle={{fontColor: "#E58A20", textDecoration: "none"}}>*/}
+                {/*    <div className="buttonGallery">Zobacz więcej zdjęć</div>*/}
+                {/*</Link>*/}
             </div>
         )
     }
