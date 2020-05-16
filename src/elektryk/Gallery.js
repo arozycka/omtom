@@ -34,12 +34,12 @@ class Gallery extends React.Component {
         super(props);
         this.state =
             {
-                galley: [img0, img1, img2, img3],
-                galley2: [ img4, img5, img6, img7],
-                galley3: [ img8, img9,img10, img11],
-                galley4: [img12, img13, img14, img15],
-                galley5: [img16, img17, img18, img19],
-                galley6: [img20, img21, img22, img23],
+                galley: [{src: img0, alt: 'OMTOM-photo0'}, {src: img1, alt: 'OMTOM-photo1'}, {src: img2, alt: 'OMTOM-photo2'}, {src: img3, alt: 'OMTOM-photo3'}],
+                galley2: [{src: img4, alt: 'OMTOM-photo4'}, {src: img5, alt: 'OMTOM-photo5'}, {src: img6, alt: 'OMTOM-photo6'}, {src: img7, alt: 'OMTOM-photo7'}],
+                galley3: [{src: img8, alt: 'OMTOM-photo8'}, {src: img9, alt: 'OMTOM-photo9'}, {src: img10, alt: 'OMTOM-photo10'}, {src: img11, alt: 'OMTOM-photo11'}],
+                galley4: [{src: img12, alt: 'OMTOM-photo12'}, {src: img13, alt: 'OMTOM-photo13'}, {src: img14, alt: 'OMTOM-photo14'}, {src: img15, alt: 'OMTOM-photo15'}],
+                galley5: [{src: img16, alt: 'OMTOM-photo16'}, {src: img17, alt: 'OMTOM-photo17'}, {src: img18, alt: 'OMTOM-photo18'}, {src: img19, alt: 'OMTOM-photo19'}],
+                galley6: [{src: img20, alt: 'OMTOM-photo20'}, {src: img21, alt: 'OMTOM-photo21'}, {src: img22, alt: 'OMTOM-photo22'}, {src: img23, alt: 'OMTOM-photo23'}],
             }
     }
 
@@ -54,42 +54,42 @@ class Gallery extends React.Component {
                     <div className="listaimages">
                         {
                             this.state.galley.map(el => <div>
-                                <img className="img" src={el}/>
+                                <img className="img" src={el.src} alt={el.alt}/>
                             </div>)
                         }
                     </div>
                     <div className="listaimages">
                         {
                             this.state.galley2.map(el => <div>
-                                <img className="img" src={el}/>
+                                <img className="img" src={el.src} alt={el.alt}/>
                             </div>)
                         }
                     </div>
                     <div className="listaimages">
                         {
                             this.state.galley3.map(el => <div>
-                                <img className="img" src={el}/>
+                                <img className="img" src={el.src} alt={el.alt}/>
                             </div>)
                         }
                     </div>
                     <div className="listaimages">
                         {
                             this.state.galley4.map(el => <div>
-                                <img className="img" src={el}/>
+                                <img className="img" src={el.src} alt={el.alt}/>
                             </div>)
                         }
                     </div>
                     <div className="listaimages">
                         {
                             this.state.galley5.map(el => <div>
-                                <img className="img" src={el}/>
+                                <img className="img" src={el.src} alt={el.alt}/>
                             </div>)
                         }
                     </div>
                     <div className="listaimages">
                         {
                             this.state.galley6.map(el => <div>
-                                <img className="img" src={el}/>
+                                <img className="img" src={el.src} alt={el.alt}/>
                             </div>)
                         }
                     </div>
